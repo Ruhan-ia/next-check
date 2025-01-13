@@ -26,7 +26,7 @@ const Sliders =  () => {
         }
     }, [activeImg])
     return (
-        <div className="grid place-items-center mx-auto grid-cols-2 w-auto shadow-2xl max-w-5xl rounded-2xl">
+        <div className="grid place-items-center mx-auto lg:grid-cols-2 w-auto shadow-2xl max-w-5xl rounded-2xl">
             <div className={`w-full flex justify-center items-center  transition-transform ease-in-out duration-500 rounded-2xl`}>
                 {
                     images.map((ele, idx) => <div key={idx} className={`${idx === activeImg
