@@ -4,6 +4,7 @@ import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md"
 
 const Description = ({activeImgIndex, clickNext, clickPrev}) => {
   return (
+     <>
     <div className="   bg-[#e7dfd9]  rounded-tr-3xl rounded-br-3xl">
       
       {images.map((ele, idx) => (
@@ -20,14 +21,14 @@ const Description = ({activeImgIndex, clickNext, clickPrev}) => {
             {ele.description}
           </div>
           <button className="text-white uppercase px-4 py-2 my-10 rounded-md bg-[#ecae7e]">Order now</button>
-        <div className="flex absolute justify-center items-center lg:bottom-1 ">
+        <div className="flex  justify-center items-center space-x-2">
             
-        <div onClick={clickPrev} className="absolute bottom-2  right-10 cursor-pointer text-sm p-2 text-gray-400 bg-white rounded-full"><MdOutlineArrowBackIos /></div>
-        <div onClick={clickNext} className="absolute bottom-2  right-2 cursor-pointer text-sm p-2 text-gray-400 bg-white rounded-full"><MdOutlineArrowForwardIos /></div>
+        <div onClick={clickPrev} className="  cursor-pointer text-sm p-2 text-gray-400 bg-white rounded-full"><MdOutlineArrowBackIos /></div>
+        <div onClick={clickNext} className="  cursor-pointer text-sm p-2 text-gray-400 bg-white rounded-full"><MdOutlineArrowForwardIos /></div>
         </div>
         </div>
       ))}
-    </div>
+    </div></>
   );
 };
 

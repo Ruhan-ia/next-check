@@ -1,4 +1,5 @@
 
+import Cards from "@/components/Cards/Cards";
 import Sliders from "@/components/Sliders/Sliders";
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <div>
           
         <Sliders></Sliders>
+        <Cards></Cards>
         </div>
       </main>
       

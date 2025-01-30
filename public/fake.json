@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "coffeeName": "Espresso",
+      "image": "/11389.jpg",
+      "price": 2.5,
+      "ratings": 4.7
+    },
+    {
+      "id": 2,
+      "coffeeName": "Cappuccino",
+      "image": "/close-up-view-delicious-pancake-around-cup-coffee-gray.jpg",
+      "price": 3.0,
+      "ratings": 4.8
+    },
+    {
+      "id": 3,
+      "coffeeName": "Latte",
+      "image": "/fresh-sandwich-with-fresh-vegetables-coffee.jpg",
+      "price": 3.5,
+      "ratings": 4.6
+    },
+    {
+      "id": 4,
+      "coffeeName": "Americano",
+      "image": "/close-up-view-delicious-pancake-around-cup-coffee-gray.jpg",
+      "price": 2.0,
+      "ratings": 4.5
+    },
+    {
+      "id": 5,
+      "coffeeName": "Mocha",
+      "image": "/side-view-cornel-berries-bowl-cup-tea-with-closed-books-blue-background.jpg",
+      "price": 4.0,
+      "ratings": 4.9
+    },
+    {
+      "id": 6,
+      "coffeeName": "Macchiato",
+      "image": "/fresh-sandwich-with-fresh-vegetables-coffee.jpg",
+      "price": 3.2,
+      "ratings": 4.7
+    },
+    {
+      "id": 7,
+      "coffeeName": "Flat White",
+      "image": "/11389.jpg",
+      "price": 3.8,
+      "ratings": 4.6
+    },
+    {
+      "id": 8,
+      "coffeeName": "Cold Brew",
+      "image": "/side-view-cornel-berries-bowl-cup-tea-with-closed-books-blue-background.jpg",
+      "price": 3.0,
+      "ratings": 4.5
+    }
+  ]

@@ -37,7 +37,7 @@ const Sliders =  () => {
                         src={ele.image}
                         width= {400}
                         height= {400} 
-                        alt='coffe'
+                        alt='coffee'
                         className='w-full h-full object-cover rounded-tl-3xl rounded-bl-3xl '>
                         </Image>
                     </div>)
